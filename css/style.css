@@ -2,6 +2,39 @@
     box-sizing: border-box;
 }
 
+
+@font-face {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-display: wrap;
+    src: 
+         url("../fonts/rubik-v20-latin_cyrillic-regular.woff2") format("woff2"), 
+         url("../fonts/rubik-v20-latin_cyrillic-regular.woff") format("woff"); 
+  }
+
+  @font-face {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+font-display: wrap;
+    src: 
+         url("../fonts/rubik-v20-latin_cyrillic-500.woff2") format("woff2"),
+         url("../fonts/rubik-v20-latin_cyrillic-500.woff") format("woff"); 
+  }
+
+  @font-face {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 700;
+font-display: wrap;
+    src: 
+         url("../fonts/rubik-v20-latin_cyrillic-700.woff2") format("woff2"), 
+         url("../fonts/rubik-v20-latin_cyrillic-700.woff") format("woff"); 
+  }
+
+
+
 body{
     margin: 0;
     font-family: "Rubik" , "Arial" , sans-serif;
@@ -159,6 +192,7 @@ body{
 
 
 .header-search::before{
+    display: block;
     width: 20px;
     height: 20px;
     margin-right: 6px;
@@ -167,7 +201,12 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     content: "";
+    
 }
+.header-search{
+    margin-left: 20px;
+}
+
 
 .header-nav-list {
     display: flex;
