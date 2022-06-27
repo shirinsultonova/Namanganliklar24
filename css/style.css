@@ -12,7 +12,7 @@ body{
     width: 1240px;
     margin-right: auto;
     margin-left: auto;
-
+    
     padding-right: 20px;
     padding-left: 20px;
 }
@@ -25,10 +25,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    
     padding-top: 30px;
     padding-bottom: 30px;
-
+    
 }
 
 .header-logobox {
@@ -41,7 +41,7 @@ body{
 .headerbox-logobox-list {
     display: flex;
     list-style: none;
-
+    
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -55,12 +55,17 @@ body{
     line-height: 19px;
     color: #555555;
 }
-
-.headerbox-logobox-currency-icon {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    color: #2959ce;
+.headerbox-logobox-currency::before {
+    content: "$";
+    width: 20px;
+    height: 20px;
+    color: #2959CE;
+}
+.box::before{
+    content: "P";
+    width: 20px;
+    height: 20px;
+    color: #2959CE;
 }
 
 .header-searchbox {
@@ -69,12 +74,14 @@ body{
 }
 
 .header-search {
+    display: flex;
+    align-items: center;
     margin-right: 25px;
 
     padding-top: 15px;
     padding-right: 192px;
     padding-bottom: 13px;
-    padding-left: 41px;
+    padding-left: 15px;
 
     background: #fff;
     border-radius: 60px;
@@ -90,17 +97,19 @@ body{
     color: #8d8d8d;
 }
 
+
+
 .header-language {
     display: flex;
     align-items: center;
-
+    
     margin-right: 25px;
-
+    
     padding-top: 3px;
     padding-right: 13px;
     padding-bottom: 3px;
     padding-left: 3px;
-
+    
     background: #dce6ff;
     border-radius: 39px;
 }
@@ -112,7 +121,7 @@ body{
     padding-right: 7px;
     padding-bottom: 7px;
     padding-left: 7px;
-
+    
     background-color: #fff;
     border-radius: 50%;
 }
@@ -127,7 +136,7 @@ body{
 .header-language-ru {
     font-size: 13px;
     line-height: 15px;
-
+    
     text-decoration: none;
     color: #a6a6a6;
 }
@@ -149,6 +158,16 @@ body{
 }
 
 
+.header-search::before{
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+    flex-shrink: 0;
+    background-image: url("../img/Mask\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    content: "";
+}
 
 .header-nav-list {
     display: flex;
@@ -198,7 +217,7 @@ body{
     
     margin-top: 0px;
     margin-bottom: 20px;
-
+    
     color: #000000;
 }
 
@@ -219,8 +238,37 @@ body{
     background: #f6f6f6;
     border-radius: 15px;
 }
-
-.news-world-news-itembox {
+.news-world-news-list-textbox-description:before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.box-1:before{
+    background-image: url(../img/KB.png);
+}
+.box-2:before{
+    background-image: url(../img/image\ 4.png);
+}
+.box-3:before{
+    background-image: url(../img/image\ 4\ copy\ 2.png);
+}
+.box-4:before{
+    background-image: url(../img/image\ 4\ copy\ 3.png);
+}
+.box-5:before{
+    background-image: url(../img/image\ 4\ copy\ 4.png);
+}
+.box-6:before{
+    background-image: url(../img/image\ 4\ copy\ 5.png);
+}
+.box-7:before{
+    background-image: url(../img/image\ 4\ copy\ 6.png);
+}
+.box-8:before{
+    background-image: url(../img/image\ 4\ copy\ 7.png);
+}
+.news-world-news-itembox{
     display: flex;
     padding-top: 20px;
     padding-right: 20px;
@@ -252,10 +300,10 @@ body{
 .news-world-news-list-textbox-content {
     font-size: 16px;
     line-height: 22px;
-
+    
     margin-top: 0px;
     margin-bottom: 17px;
-
+    
     color: #4A4B4C;
 }
 
@@ -267,9 +315,10 @@ body{
     
     margin-top: 0px;
     margin-bottom: 0px;
-
+    
     color: #5E5F61;
 }
+
 
 .news-world-news-list-textbox-description-logo {
     margin-right: 10px;
@@ -290,7 +339,7 @@ body{
     font-size: 16px;
     line-height: 19px;
     text-decoration: none;
-
+    
     color: #000000;
 }
 
@@ -300,24 +349,24 @@ body{
     padding-right: 17px;
     padding-bottom: 25px;
     padding-left: 17px;
-
+    
     background: #f6f6f6;
     border-radius: 15px;
 }
 .news-world-other-advertising-img{
     width: 393px;
-height: 553px;
-
+    height: 553px;
+    
 }
 
 .news-world-other-text {
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
-
+    
     margin-top: 0px;
     margin-bottom: 25px;
-
+    
     color: #000000;
 }
 
@@ -326,7 +375,7 @@ height: 553px;
     margin-top: 0px;
     margin-bottom: 0px;
     padding-left: 0px;
-
+    
 }
 
 .news-world-other-item {
@@ -352,7 +401,7 @@ height: 553px;
 .news-world-other-description {
     font-size: 13px;
     line-height: 15px;
-
+    
     margin-top: 0px;
     margin-bottom: 20px;
     
@@ -367,7 +416,7 @@ height: 553px;
 
 .footer-part {
     background-color: #7297ef;
-   
+    
     padding-bottom: 40px;
 }
 .site-footer{
@@ -388,24 +437,24 @@ height: 553px;
 
 .footer-top-boxlogo-link{
     font-weight: 700;
-font-size: 24px;
-line-height: 28px;
-padding-bottom:  15px;
-color: #FFFFFF;
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom:  15px;
+    color: #FFFFFF;
     text-decoration: none;
-
+    
 }
 
 .namanganliklar{
     margin-top: 40px;
     margin-bottom: 15px;
-
+    
 }
 .footer-top-boxlogo-text {
     font-size: 12px;
     line-height: 19px;
     margin-bottom: 71px;
-
+    
     color: #fff;
 }
 
@@ -419,8 +468,8 @@ color: #FFFFFF;
     margin-top: 0;
     margin-bottom: auto;
     padding-left: 0px;
-   
-
+    
+    
 }
 
 .footer-top-infobox-item {
@@ -431,7 +480,7 @@ color: #FFFFFF;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-
+    
     text-decoration: none;
     
     color: #FFFFFF;
@@ -444,11 +493,11 @@ color: #FFFFFF;
 }
 
 .footer-bottom-text {
-
+    
     font-weight: 500;
     font-size: 18px;
     line-height: 23px;
-
+    
     margin-top: 20px;
     margin-bottom: 0px;
     
