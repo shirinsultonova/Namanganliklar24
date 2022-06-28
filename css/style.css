@@ -101,36 +101,33 @@ body{
     color: #2959CE;
 }
 
-.header-searchbox {
-    display: flex;
-    align-items: center;
-}
-
-.header-search {
-    display: flex;
-    align-items: center;
+.search-button {
+    font-family: "Rubik";
     margin-right: 25px;
-
     padding-top: 15px;
-    padding-right: 192px;
-    padding-bottom: 13px;
-    padding-left: 15px;
-
-    background: #fff;
+    padding-bottom: 15px;
+    padding-left: 43px;
+    width: 275px;
+    height: 45px;
+    border: none;
+    background: #ffffff;
     border-radius: 60px;
-}
-
-.header-search-text {
+    background-image: url("../images/search.svg");
+    background-repeat: no-repeat;
+    background-position: 18px 11px;
+  }
+  .search-img {
+    margin-left: 15px;
+  }
+  .search-text {
+    margin-left: 8px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-
-    margin-top: 0px;
-    margin-bottom: 0px;
-
     color: #8d8d8d;
-}
-
-
+  }
 
 .header-language {
     display: flex;
@@ -188,24 +185,10 @@ body{
     line-height: 19px;
     text-decoration: none;
     color: #fff;
-}
-
-
-.header-search::before{
-    display: block;
-    width: 20px;
-    height: 20px;
-    margin-right: 6px;
-    flex-shrink: 0;
-    background-image: url("../img/Mask\ \(1\).png");
-    background-repeat: no-repeat;
-    background-position: center;
-    content: "";
     
 }
-.header-search{
-    margin-left: 20px;
-}
+
+
 
 
 .header-nav-list {
