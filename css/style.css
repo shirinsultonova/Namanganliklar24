@@ -50,58 +50,31 @@ body{
     padding-left: 20px;
 }
 
-.header-bg {
-    background-color: #f6f6f6;
-}
-
-.header-box{
+.header-top {
+    padding: 28px 0;
+    background-color: #F6F6F6;
+  }
+  
+  .header-top-inner {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    
-    padding-top: 30px;
-    padding-bottom: 30px;
-    
-}
-
-.header-logobox {
+    align-items: center;
+  }
+  
+  .header-top-start {
     display: flex;
     align-items: center;
-}
-.header-logobox-logo {
-    margin-right: 35px;
-}
-.headerbox-logobox-list {
+  }
+  
+  .currency-list {
     display: flex;
+    margin: 0;
+    padding-left: 0;
     list-style: none;
-    
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
+  }
+  
 
-.headerbox-logobox-item {
-    margin-right: 25px;
-}
-
-.headerbox-logobox-currency {
-    font-size: 16px;
-    line-height: 19px;
-    color: #555555;
-}
-.headerbox-logobox-currency::before {
-    content: "$";
-    width: 20px;
-    height: 20px;
-    color: #2959CE;
-}
-.box::before{
-    content: "P";
-    width: 20px;
-    height: 20px;
-    color: #2959CE;
-}
-
-.search-button {
+  .search-button {
     font-family: "Rubik";
     margin-right: 25px;
     padding-top: 15px;
@@ -129,87 +102,112 @@ body{
     color: #8d8d8d;
   }
 
-.header-language {
-    display: flex;
-    align-items: center;
-    
-    margin-right: 25px;
-    
-    padding-top: 3px;
-    padding-right: 13px;
-    padding-bottom: 3px;
-    padding-left: 3px;
-    
-    background: #dce6ff;
-    border-radius: 39px;
-}
 
-.header-landuage-active{
-    margin-right: 8px;
-    
-    padding-top: 7px;
-    padding-right: 7px;
-    padding-bottom: 7px;
-    padding-left: 7px;
-    
-    background-color: #fff;
-    border-radius: 50%;
-}
-
-.header-language-uz {
-    font-size: 13px;
-    line-height: 12px;
-    text-decoration: none;
-    color: #000000;
-}
-
-.header-language-ru {
-    font-size: 13px;
-    line-height: 15px;
-    
-    text-decoration: none;
-    color: #a6a6a6;
-}
-.header-singin {
-    padding-top: 13px;
-    padding-right: 20px;
-    padding-bottom: 13px;
-    padding-left: 20px;
-    background-color: #7296ec;
-    border-radius: 10px;
-}
-
-.header-searchbox-link {
-    font-weight: 500;
+  
+  .currency-item {
+    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+    color: #555;
+    margin-right: 25px;
+  }
+  
+  
+  .first-symbol::before {
+    margin-left: 35px;
+    content: "$";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2959CE;
+  }
+  .currency-symbol-2::before{
+    content: "P";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2959CE;
+  }
+  
+  
+  .header-top-end {
+    display: flex;
+    align-items: center;
+  }
+  
+
+
+
+
+  .site-languages {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70px;
+    margin-right: 25px;
+    padding: 3px;
+    line-height: 15px;
+    background-color: #DCE6FF;
+    border-radius: 39px;
+    text-align: center;
+  }
+  
+  .lang-uz {
+    width: 30px;
+    height: 30px;
+    padding: 7px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  
+  .site-lang {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
     text-decoration: none;
+  }
+  
+  .lang-ru .lang-link {
+    padding-right: 6px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #A6A6A6;
+  }
+  
+  
+  .login {
+    padding: 13px 20px;
+    background: #7296EC;
     color: #fff;
-    
-}
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px solid transparent;
+  }
 
-
-
-
-.header-nav-list {
+  .nav-list {
     display: flex;
     justify-content: space-between;
-    list-style: none;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-top: 30px;
+    align-items: center;
+    margin-top: 30px;
+    padding-left: 0;
     padding-bottom: 20px;
-    padding-left: 0px;
-    border-bottom: 1px solid #d1d1d1;
-}
-
-.headen-nav-item-link {
-    font-weight: 500px;
+    border-bottom: 1px solid #D1D1D1;
+    list-style: none;
+  }
+  
+  .nav-link {
+    font-weight: 500;
     font-size: 18px;
     line-height: 21px;
-    text-align: center;
-    text-decoration: none;
     color: #7F7F7F;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  
+.footer-top-logobox{
+    padding-top: 10px;
 }
 
 
@@ -233,7 +231,7 @@ body{
 }
 
 .news-world-text {
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 24px;
     line-height: 28px;
     
@@ -450,7 +448,6 @@ body{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 48px;
-    padding-bottom: 33px;
     border-bottom: 1px solid #dadada;
 }
 
