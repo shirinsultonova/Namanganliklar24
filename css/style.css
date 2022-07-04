@@ -1,5 +1,15 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
+
 *{
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 
@@ -56,17 +66,29 @@ body{
   }
   
   .header-top-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   
   .header-top-start {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   
   .currency-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: 0;
     padding-left: 0;
@@ -131,8 +153,12 @@ body{
   
   
   .header-top-end {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   
 
@@ -140,9 +166,14 @@ body{
 
 
   .site-languages {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 70px;
     margin-right: 25px;
     padding: 3px;
@@ -187,9 +218,15 @@ body{
   }
 
   .nav-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-top: 30px;
     padding-left: 0;
     padding-bottom: 20px;
@@ -203,6 +240,8 @@ body{
     line-height: 21px;
     color: #7F7F7F;
     text-decoration: none;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
   }
   
@@ -226,6 +265,8 @@ body{
 
 .news-world-newsbox
 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-bottom: 100px;
 }
@@ -289,6 +330,8 @@ body{
     background-image: url(../img/image\ 4\ copy\ 7.png);
 }
 .news-world-news-itembox{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-top: 20px;
     padding-right: 20px;
@@ -328,8 +371,12 @@ body{
 }
 
 .news-world-news-list-textbox-description {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     font-size: 12px;
     line-height: 14px;
     
@@ -444,9 +491,15 @@ body{
 }
 
 .footer-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-bottom: 48px;
     border-bottom: 1px solid #dadada;
 }
@@ -505,8 +558,12 @@ body{
 }   
 
 .footer-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 .footer-bottom-text {
@@ -525,6 +582,8 @@ body{
 }
 
 .footer-bottom-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     list-style: none;
     margin-top: 31px;
@@ -535,5 +594,3 @@ body{
 .footer-bottom-item {
     margin-left: 25px;
 }
-
-
