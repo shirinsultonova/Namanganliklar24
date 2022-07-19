@@ -1,6 +1,5 @@
 
 
-
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -9,8 +8,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Namanganlik-24</title>
-
-  <link rel="stylesheet" href="./css/main.css">
+<!-- <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/main.css"> -->
+  <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
   <header>
@@ -244,7 +244,7 @@
           <p class="enter-text">
             Хотите быть в курсе свежих новостей? Включите уведомления!
           </p>
-          <a href="#" class="enter-link">Включит </a>
+          <button class="enter-link js-modal-btn" type="button">Включит</button>
         </div>
 
 
@@ -461,6 +461,33 @@
       </div>
       </div>
     </footer>
+
+
+
+
+<div class="modal">
+  <div class="modal-window">
+    <div class="text">
+    <h3 class="modal-title">
+      Хотите быть в курсе свежих новостей?  Включите уведомления!
+
+    </h3>
+
+    <button class="enter-link modal-link" type="button">
+      Включит 
+    </button>
+    <button class="modal-btn js-close-btn" type="button">
+    </button>
+  </div>
+  </div>
+</div>
+
+<script src="./js/main.js"></script>
+
+
+
+
+
 </body>
 
 </html>
