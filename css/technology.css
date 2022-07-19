@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 *{
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -630,7 +637,6 @@ margin-left: 10px;
 .last-6::before {
   background-image: url("../images/T.png");
 }
-  
 .footer-top{
   margin-top: 170px;
   background-color: #7297EF;

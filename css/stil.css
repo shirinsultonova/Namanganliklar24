@@ -5,6 +5,20 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 *{
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -425,18 +439,13 @@ body{
     
 
 
-.footer-part {
-  background-color: #7297ef;
-  
-  padding-bottom: 40px;
-}
-.site-footer{
-  padding-top: 67px;
-  padding-bottom: 64px;
+.footer-top{
+  margin-top: 170px;
+  background-color: #7297EF;
 
 }
 
-.footer-top {
+.footer-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -446,98 +455,121 @@ body{
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 48px;
-  padding-bottom: 33px;
-  border-bottom: 1px solid #dadada;
+  border-bottom: 1px solid #fff;
 }
 
-
-.footer-top-boxlogo-link{
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-  padding-bottom:  15px;
-  color: #FFFFFF;
-  text-decoration: none;
-  
-}
-
-.namanganliklar{
+.footer-logo>img {
   margin-top: 40px;
-  margin-bottom: 15px;
-  
-}
-.footer-top-boxlogo-text {
-  font-size: 12px;
-  line-height: 19px;
-  margin-bottom: 71px;
-  
-  color: #fff;
 }
 
-.footer-top-infobox {
-  margin-top: 83px;
-  margin-right: 100px;
-}
-
-.footer-top-infobox-list {
-  list-style: none;
-  margin-top: 0;
-  margin-bottom: auto;
-  padding-left: 0px;
-  
-  
-}
-
-.footer-top-infobox-item {
-  margin-bottom: 20px;
-}
-
-.footer-top-infobox-link {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  
-  text-decoration: none;
-  
-  color: #FFFFFF;
-  
-}   
-
-.footer-bottom {
+.footer-links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+
 }
 
-.footer-bottom-text {
-  
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 23px;
-  
-  margin-top: 20px;
-  margin-bottom: 0px;
-  
+.footer-first-text {
+  width: 229px;
+  margin-top: 0;
+  padding-bottom: 40px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
   color: #FFFFFF;
 }
-.footer-bottom-link{
-  margin-right: 28px;
+
+.footer-first-ul {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 100px;
+  width: 167px;
 }
 
-.footer-bottom-list {
+.footer-first-ul-item {
+  list-style: none;
+  padding-top: 20px;
+}
+
+.footer-first-ul-item>a {
+  text-decoration: none;
+
+  width: 167px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.footer-second-ul {
+  padding-left: 0;
+  width: 167px;
+  margin-right: 296px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer-second-ul-item {
+  list-style: none;
+  margin: 23px;
+  padding-top: 16px;
+  width: 224px;
+}
+
+.footer-second-ul-item>a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.footer-under-color {
+  background-color: #7297EF;
+}
+
+.footer-under {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  list-style: none;
-  margin-top: 31px;
-  margin-bottom: 0px;
-  padding-left: 0px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 40px;
+  padding-bottom: 40px;
 }
 
-.footer-bottom-item {
-  margin-left: 25px;
+.footer-under-text {
+  margin: 0;
+  width: 161px;
+  height: 46px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.footer-under-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+}
+
+.footer-under-links{
+  margin: 0;
+}
+
+.footer-under-icon {
+  list-style: none;
+  padding-right: 25px;
 }
